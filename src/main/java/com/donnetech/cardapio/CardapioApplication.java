@@ -20,8 +20,8 @@ public class CardapioApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		Food f1 = new Food(null, "lasanha", "3188318318108.png", 2);
-		Food f2 = new Food(null, "mocotó", "3188318318108.png", 3);
+		Food f1 = new Food(null, "lasanha", "https://st2.depositphotos.com/4164031/6914/i/950/depositphotos_69145633-stock-photo-flag-of-brazil.jpg", 2);
+		Food f2 = new Food(null, "mocotó", "https://st2.depositphotos.com/4164031/6914/i/950/depositphotos_69145633-stock-photo-flag-of-brazil.jpg", 3);
 
 		foodRepository.saveAll(Arrays.asList(f1,f2));
 	}
